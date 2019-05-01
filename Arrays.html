@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ARRAYS JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+    //add array
+    var arr = new Array();
+
+    //add numbers in array
+    for(var i = 0; i < 10; i++ )
+    {
+    	arr[i] = i*3;
+    	document.write( arr[i] + " <br/ >");
+    }
+    //add new array
+    var arrTwo = new Array(1 , 3.35 , "str" , false);
+
+    document.write("<hr/>");
+   
+    //read array
+    for(var x = 0; x < arrTwo.length; x++)
+    {
+    	document.write(arrTwo[x] + " <br/ > ");
+    }
+
+    //find summ arr
+    
+    var summ = 0;
+
+    for(i = 0 ; i < arr.length ; i++)
+        summ += arr[i];
+
+    document.write("Summ array - " + summ);
+
+
+	</script>
+</body>
+</html>
