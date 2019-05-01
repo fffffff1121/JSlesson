@@ -34,7 +34,46 @@
     for(i = 0 ; i < arr.length ; i++)
         summ += arr[i];
 
+    document.write("<hr/>");
+
     document.write("Summ array - " + summ);
+
+    document.write("<hr/>");
+
+    //add little arrays
+
+    var arr_1 = new Array();
+    var arr_2 = new Array();
+    var arr_3 = new Array();
+    for(i = 0; i < 5; i++) arr_1[i] = i;
+    for(i = 0; i < 10; i++) arr_2[i] = i;
+    for(i = 0; i < 15; i++) arr_3[i] = i;
+    
+    //add big array
+
+    var arr_X = new Array(arr_1 , arr_2 , arr_3 );
+    
+    //read arr_X
+  
+    var x;
+    var j;
+
+    for(x = 0; x < arr_X.length ; x++)
+    {
+    
+        for(j = 0; j < arr_X[x].length ; j++)
+        {
+
+            document.write(arr_X[x][j] );
+
+        }
+
+    document.write(" <br /> ");
+
+    }
+
+
+
 
 
 	</script>
