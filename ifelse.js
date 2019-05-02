@@ -58,3 +58,9 @@ var message;
 var login;
 
 message = (login == 'Вася')?"Привет":(login == 'Директор')?'Здравствуйте':(login == '')?'Нет логина':''
+
+//practic lesson 5
+
+var age;
+if(age > 14 || age < 90);
+if(!(age =< 14 || age >= 90));
