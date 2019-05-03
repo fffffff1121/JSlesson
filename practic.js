@@ -1,3 +1,5 @@
+"use strict"
+
 var name = prompt("Input name - " , '');
 
 if(name == null){
