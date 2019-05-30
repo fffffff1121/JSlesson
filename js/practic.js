@@ -1,63 +1,63 @@
 "use strict"
 
-var name = prompt("Input name - " , '');
+var name = prompt("Input name - ", '');
 
-if(name == null){
+if (name == null) {
 
-alert("Bay bay!");
+	alert("Bay bay!");
 
-}else if(name == ''){
+} else if (name == '') {
 
-alert("Input realy name!");
+	alert("Input realy name!");
 
-}else{
+} else {
 
-var pass = prompt("Input password - " , '');
+	var pass = prompt("Input password - ", '');
 
-if(pass == null){
+	if (pass == null) {
 
-alert("Bay bay!");
+		alert("Bay bay!");
 
-}else if(pass == ''){
+	} else if (pass == '') {
 
-alert("Input realy password!");
+		alert("Input realy password!");
 
-}else{
+	} else {
 
-var age = prompt("Input your age -" , '');
+		var age = prompt("Input your age -", '');
 
-if(age == null){
+		if (age == null) {
 
-alert("Bay bay!");
+			alert("Bay bay!");
 
-}else if(age == ''){
+		} else if (age == '') {
 
-alert("Input realy age!");
+			alert("Input realy age!");
 
-}else if(age < 14){
+		} else if (age < 14) {
 
-alert("You are little!");
+			alert("You are little!");
 
-}else{
+		} else {
 
-var statsView = prompt("Are you want see your statistic ? \nYes or Not",'');
+			var statsView = prompt("Are you want see your statistic ? \nYes or Not", '');
 
-if(statsView == null){
+			if (statsView == null) {
 
-alert("Bay bay!");
+				alert("Bay bay!");
 
-}else if(statsView == "Yes"){
+			} else if (statsView == "Yes") {
 
-alert("Your name - " + name + "\n" + "Your password - " + pass + "\n" + "Your age - " + age);
+				alert("Your name - " + name + "\n" + "Your password - " + pass + "\n" + "Your age - " + age);
 
-}else if(statsView == "Not"){
+			} else if (statsView == "Not") {
 
-alert("Bay bay!");
+				alert("Bay bay!");
 
-}
+			}
 
-}
+		}
 
-}
+	}
 
 }
