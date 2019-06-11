@@ -20,10 +20,10 @@ while(i < 3){
 while(true){
 
 var num = prompt("Введите число больше 100" , '');
-if(num > 100) {
-	alert("good"); 
-	break;
-} 
+	if(num > 100) {
+		alert("good"); 
+		break;
+	} 
 
 }
 
