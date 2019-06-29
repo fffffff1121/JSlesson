@@ -38,14 +38,7 @@
 
  /////////////////////////////////////////////////
 
-function sum(a){
-   function next(b){
-      a += b;
-      return a; 
-   }
-}
 
-sum(1)(2);
 
 //////////////////////////////////////////////////
 
@@ -53,3 +46,11 @@ let object = {
    toString : 1,
    valueOf : '1'
 }
+
+function New(arg){
+   this.number = arg;
+}
+
+let newArg = new New(8);
+
+document.write(newArg.number);
